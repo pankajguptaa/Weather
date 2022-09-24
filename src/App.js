@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import hotbg from './Components/hot.jpg';
+// import hotbg from './Components/hot.jpg';
 import cold from './Components/cold.jpg';
 import Description from './Components/Description';
 import getFormatData from './WeatherFetch';
