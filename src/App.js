@@ -42,7 +42,8 @@ const enterKeyPressed = (e) => {
     setCity(e.currentTarget.value);
     e.currentTarget.blur();
   }
-
+  else{
+    e.currentTarget.blur(Notfound);
   }
   return (
     <div className="app" style={{backgroundImage:`url(${cold})`}}>
