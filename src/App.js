@@ -43,7 +43,7 @@ const enterKeyPressed = (e) => {
     e.currentTarget.blur();
   }
   else{
-    e.currentTarget.blur(Notfound);
+    e.currentTarget(Notfound);;
   }
   return (
     <div className="app" style={{backgroundImage:`url(${cold})`}}>
