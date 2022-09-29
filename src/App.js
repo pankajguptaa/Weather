@@ -42,10 +42,10 @@ const enterKeyPressed = (e) => {
     setCity(e.currentTarget.value);
     e.currentTarget.blur();
   }
-  else{
-    setCity(e.currentTarget.value);
-    e.currentTarget.blur(Notfound);;
+  else(e.keyCode !== 13){
+    alert('output not found');
   }
+
   return (
     <div className="app" style={{backgroundImage:`url(${cold})`}}>
     <div className='overlay'>
